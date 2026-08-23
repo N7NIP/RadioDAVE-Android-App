@@ -1,0 +1,10 @@
+{
+  "name": "RadioDAVE",
+  "description": "RadioDAVE - Radio's Classic Hits! Streaming player with real-time spectrum visualizers, live track metadata, and voice command controls.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

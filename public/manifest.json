@@ -1,0 +1,35 @@
+{
+  "name": "RadioDAVE - Radio's Classic Hits!",
+  "short_name": "RadioDAVE",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "any",
+  "description": "Radio's Classic Hits! Live streaming classic hits player with voice control, audio spectrum visualizers, and live track metadata.",
+  "categories": ["music", "entertainment", "news"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play RadioDAVE",
+      "short_name": "Play",
+      "description": "Start streaming RadioDAVE live",
+      "url": "/?action=play",
+      "icons": [{ "src": "/logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
